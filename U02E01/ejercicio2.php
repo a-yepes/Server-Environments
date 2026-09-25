@@ -1,4 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
 /*Loop through an array of meals and days of the week (an associative array.)
 The result have to draw a table with as many rows as days of the week and in each row two cells, 
 one with the day of the week and one with the meal for these day.*/
@@ -24,3 +32,5 @@ echo "</table>";
 
 
 ?>
+</body>
+</html>
