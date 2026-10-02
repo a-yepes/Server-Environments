@@ -57,7 +57,16 @@ echo count;
 ?>
 <?
 /*remove duplicate characters from a string. Should return a string in which each
-character appears once*/
+character appears once. strpos()*/ 
+$text="programming";
+$result ="";
+foreach (str_split($text)as $char){
+    if(!str_contains($result,$char)){
+        $result.=$char;
+    }
+}
+echo result;
+
 
 
 ?>
