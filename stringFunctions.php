@@ -188,7 +188,8 @@ echo palabraMasLarga("");
 ?>
 */ 
 
-// ahora la segunda más palabraMasLarga. ASI NO FUNCIONA POR EL SORT
+// ahora la segunda más palabraMasLarga
+/*. ASI NO FUNCIONA POR EL SORT
 <?php
 function segundaMasLarga($text){
     $words=explode(" ", $text);
@@ -198,7 +199,7 @@ function segundaMasLarga($text){
 }
 echo segundaMasLarga("");
 ?>
-
+*/
 function segundaMasLarga($text){
     $palabras = explode("",$text);
     $masLarga ="";
@@ -217,3 +218,7 @@ function segundaMasLarga($text){
 }
 echo segundaMasLarga("La vida es bella");
 
+//devuelve solamente las palabras que aparecen mas de una vez
+function palabrasRepetidas($texto){
+    
+}
